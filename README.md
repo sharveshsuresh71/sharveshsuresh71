@@ -1,4 +1,3 @@
-
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=6,11,20&height=280&section=header&text=SHARVESH%20SURESH&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=42&desc=Full-Stack%20Dev%20%7C%20AI%20Builder%20%7C%20Security%20Tinkerer&descAlignY=62&descSize=20" width="100%"/>
