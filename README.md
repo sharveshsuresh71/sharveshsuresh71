@@ -1,16 +1,43 @@
- <div align="center">
+# 🦈 SHARK CODING — Sharvesh Suresh
 
-<img src="./shark-coding-hero.svg" width="100%" alt="Sharvesh Suresh — Shark Coding animated 3D developer banner"/>
+### Creative Developer | AI Enthusiast | Full-Stack Developer
 
-<br/>
+Welcome to my personal portfolio! I'm **Sharvesh Suresh**, a developer passionate about building creative digital experiences, AI-powered applications and modern web technologies.
 
-<a href="https://portfoliosharveshz.vercel.app">
-  <img src="https://img.shields.io/badge/◈_EXPLORE_PORTFOLIO-111936?style=for-the-badge&logo=vercel&logoColor=00D9FF"/>
-</a>
-<a href="https://github.com/sharveshsuresh71">
-  <img src="https://img.shields.io/badge/GITHUB-111936?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+## 🌸 Live Portfolio
 
-### `SHARK CODING // ENGINEERING THE FUTURE`
+**[🚀 Explore My Interactive Portfolio](https://YOUR-USERNAME.github.io/shark-coding-portfolio/)**
 
-</div>
+An immersive 3D experience featuring:
+- Animated 3D shark mascot
+- Interactive seasonal flower environment
+- Smooth scrolling animations
+- Dynamic seasonal colour transitions
+- Personal introduction and project showcase
+
+## 💻 Featured Projects
+
+| Project | Description |
+|---|---|
+| RescueSphere | Emergency response platform |
+| PayShark AI | AI-powered payment project |
+| FRIDAY | Personal AI assistant |
+| Hina AI | AI assistant project |
+| NOVA | Technology project |
+
+## 🛠️ Technologies
+
+HTML • CSS • JavaScript • TypeScript • Python • React • AI
+
+## 👨‍💻 About Me
+
+I'm Sharvesh, also known as Shark Coding. I enjoy exploring new technologies, developing intelligent applications and turning creative ideas into working projects.
+
+## 📬 Connect With Me
+
+- GitHub: https://github.com/YOUR-USERNAME
+- LinkedIn: YOUR-LINKEDIN-URL
+
+---
+
+⭐ Thanks for visiting my profile!
