@@ -1,36 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390">
-<title>Animated treasure invitation</title>
+<title>Animated pirate ship — click to see my ship</title>
 <defs>
- <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06172d"/><stop offset=".55" stop-color="#123d58"/><stop offset="1" stop-color="#321b35"/></linearGradient>
- <linearGradient id="gold" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#fff5b9"/><stop offset=".45" stop-color="#f8bd45"/><stop offset="1" stop-color="#a94b19"/></linearGradient>
- <radialGradient id="glow"><stop stop-color="#ffdf75" stop-opacity=".75"/><stop offset="1" stop-color="#ffad32" stop-opacity="0"/></radialGradient>
- <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+ <linearGradient id="ocean" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#102d50"/><stop offset="1" stop-color="#061323"/></linearGradient>
+ <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff2a8"/><stop offset=".5" stop-color="#f5b942"/><stop offset="1" stop-color="#a95a22"/></linearGradient>
+ <linearGradient id="sail" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff8dc"/><stop offset="1" stop-color="#d8c59b"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="9"/></filter>
 </defs>
-<rect width="1200" height="390" rx="28" fill="url(#sea)"/>
-<g fill="#d8f1ff" opacity=".65"><circle cx="70" cy="55" r="2"/><circle cx="220" cy="90" r="2"/><circle cx="1080" cy="55" r="2"/><circle cx="1140" cy="280" r="2"/><circle cx="150" cy="320" r="2"/><circle cx="900" cy="45" r="2"/></g>
-<ellipse cx="600" cy="195" rx="330" ry="190" fill="url(#glow)" filter="url(#soft)"><animate attributeName="opacity" values=".45;1;.45" dur="2.8s" repeatCount="indefinite"/></ellipse>
-<text x="600" y="54" fill="#f8d98d" font-family="Georgia,serif" font-size="20" text-anchor="middle" letter-spacing="8">A PIRATE'S GREATEST SECRET</text>
-<!-- open treasure chest -->
-<g transform="translate(485 90)">
- <ellipse cx="115" cy="225" rx="190" ry="19" fill="#000" opacity=".32" filter="url(#soft)"/>
- <path d="M12 105 Q15 4 115 0 Q215 4 218 105Z" fill="#98451f" stroke="#f5c75d" stroke-width="9">
-  <animateTransform attributeName="transform" type="rotate" values="0 115 105;-10 115 105;0 115 105" dur="3s" repeatCount="indefinite"/>
- </path>
- <path d="M12 105 Q115 65 218 105 L218 212 Q115 248 12 212Z" fill="#74351f" stroke="#f5c75d" stroke-width="9"/>
- <path d="M30 122 L200 122 M30 195 L200 195" stroke="#e8ad42" stroke-width="11"/>
- <rect x="99" y="122" width="32" height="77" rx="5" fill="#f4c75a" stroke="#59311d" stroke-width="5"/>
- <rect x="108" y="148" width="14" height="23" rx="5" fill="#3b261c"/>
- <path d="M115 -42 l12 31 32 11 -32 12 -12 31 -12 -31 -32 -12 32 -11Z" fill="#fff0a4"><animate attributeName="opacity" values=".15;1;.15" dur="1.2s" repeatCount="indefinite"/></path>
+<rect width="1200" height="390" rx="26" fill="url(#ocean)"/>
+<g fill="#dff4ff" opacity=".7"><circle cx="80" cy="58" r="2"/><circle cx="190" cy="118" r="2"/><circle cx="1080" cy="66" r="2"/><circle cx="1125" cy="250" r="2"/><circle cx="250" cy="260" r="2"/><circle cx="900" cy="48" r="2"/></g>
+<path d="M0 300 Q150 270 300 300 T600 300 T900 300 T1200 300 V390 H0Z" fill="#14506b" opacity=".8"/>
+<path d="M0 330 Q150 300 300 330 T600 330 T900 330 T1200 330" fill="none" stroke="#58b9c7" stroke-width="4" opacity=".65"><animateTransform attributeName="transform" type="translate" values="0 0;-35 0;0 0" dur="5s" repeatCount="indefinite"/></path>
+<text x="600" y="48" text-anchor="middle" fill="#f6d98d" font-family="Georgia,serif" font-size="20" letter-spacing="8">THE SHARK CODING CREW</text>
+<!-- ship glow -->
+<ellipse cx="590" cy="238" rx="310" ry="120" fill="#e9a83d" opacity=".18" filter="url(#glow)"><animate attributeName="opacity" values=".12;.3;.12" dur="2.5s" repeatCount="indefinite"/></ellipse>
+<!-- mast and sails -->
+<g transform="translate(0 0)">
+ <path d="M590 72 V275" stroke="#6b3d22" stroke-width="13" stroke-linecap="round"/>
+ <path d="M590 82 Q455 105 390 224 Q490 207 590 226Z" fill="url(#sail)" stroke="#d8ae61" stroke-width="5"/>
+ <path d="M603 92 Q720 111 785 222 Q695 207 603 226Z" fill="url(#sail)" stroke="#d8ae61" stroke-width="5"/>
+ <path d="M590 104 L590 220" stroke="#a67c45" stroke-width="3"/>
+ <path d="M590 75 L590 40 L624 70Z" fill="#c63d35" stroke="#f3c15b" stroke-width="3"/>
+ <!-- Jolly Roger flag -->
+ <path d="M598 42 Q655 28 712 44 L712 92 Q654 76 598 91Z" fill="#17191d" stroke="#e9c36b" stroke-width="3"/>
+ <g fill="#f7e9c5" transform="translate(654 66)"><circle r="12"/><path d="M-19 18 L19 31 M19 18 L-19 31" stroke="#f7e9c5" stroke-width="5" stroke-linecap="round"/><circle cx="-4" cy="-2" r="2" fill="#17191d"/><circle cx="4" cy="-2" r="2" fill="#17191d"/></g>
 </g>
-<g fill="url(#gold)" stroke="#8d531d" stroke-width="3">
- <circle cx="390" cy="145" r="14"><animate attributeName="cy" values="145;118;145" dur="2s" repeatCount="indefinite"/></circle>
- <circle cx="790" cy="125" r="17"><animate attributeName="cy" values="125;100;125" dur="2.3s" repeatCount="indefinite"/></circle>
- <circle cx="835" cy="255" r="12"><animate attributeName="cy" values="255;232;255" dur="1.8s" repeatCount="indefinite"/></circle>
- <circle cx="365" cy="260" r="18"><animate attributeName="cy" values="260;236;260" dur="2.1s" repeatCount="indefinite"/></circle>
-</g>
+<!-- hull -->
+<path d="M300 240 Q585 275 875 240 L810 316 Q585 355 365 316Z" fill="#71391f" stroke="#e7b64e" stroke-width="9"/>
+<path d="M350 270 Q585 300 835 270" fill="none" stroke="#d38a36" stroke-width="8"/>
+<g stroke="#f0c45e" stroke-width="5"><path d="M420 285 v34 M500 292 v36 M585 296 v37 M670 292 v36 M750 283 v34"/></g>
+<path d="M300 240 Q585 275 875 240" fill="none" stroke="#ffe29a" stroke-width="8"/>
+<!-- ship bobbing -->
+<animateTransform href="#ship" attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="3s" repeatCount="indefinite"/>
+<!-- sparkle coins -->
+<g fill="url(#gold)"><circle cx="260" cy="190" r="10"><animate attributeName="cy" values="190;170;190" dur="2s" repeatCount="indefinite"/></circle><circle cx="920" cy="190" r="13"><animate attributeName="cy" values="190;165;190" dur="2.4s" repeatCount="indefinite"/></circle><path d="M955 95 l7 18 18 7 -18 7 -7 18 -7 -18 -18 -7 18 -7Z"><animate attributeName="opacity" values=".2;1;.2" dur="1.5s" repeatCount="indefinite"/></path></g>
 <g font-family="Arial,sans-serif" text-anchor="middle">
- <text x="600" y="320" fill="#fff0c2" font-size="39" font-weight="900" letter-spacing="3">CLICK TO SEE MY TREASURE</text>
- <text x="600" y="356" fill="#d7c39a" font-size="16" letter-spacing="5">MY JOLLY ROGER · MY SHIP · MY WORLD</text>
+ <text x="600" y="355" fill="#fff0c2" font-size="38" font-weight="900" letter-spacing="3">CLICK TO SEE MY SHIP</text>
 </g>
-<path d="M930 195 h85 m-30 -28 30 28 -30 28" fill="none" stroke="#ffd66d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><animateTransform attributeName="transform" type="translate" values="0 0;16 0;0 0" dur=".9s" repeatCount="indefinite"/></path>
+<path d="M950 270 h90 m-28 -25 28 25 -28 25" fill="none" stroke="#ffd66d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><animateTransform attributeName="transform" type="translate" values="0 0;15 0;0 0" dur="1s" repeatCount="indefinite"/></path>
 </svg>
