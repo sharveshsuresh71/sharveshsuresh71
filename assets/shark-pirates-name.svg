@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+<title>SHARK PIRATES — anime character mosaic lettering</title>
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#101a35"/><stop offset="1" stop-color="#07101f"/></linearGradient>
+ <pattern id="anime" width="190" height="120" patternUnits="userSpaceOnUse">
+  <image href="https://media1.tenor.com/m/iAZ1tTJbj4YAAAAC/food-luffy.gif" width="95" height="60" preserveAspectRatio="xMidYMid slice"/>
+  <image href="https://media.tenor.com/ZDXWm-AnAbsAAAAM/one-piece.gif" x="95" width="95" height="60" preserveAspectRatio="xMidYMid slice"/>
+  <image href="https://media.tenor.com/_pIHj4qnxycAAAAM/one-piece-film-red.gif" y="60" width="95" height="60" preserveAspectRatio="xMidYMid slice"/>
+  <image href="https://media.tenor.com/6P6q7GEHU_kAAAAM/sunny-sunny-one-piece.gif" x="95" y="60" width="95" height="60" preserveAspectRatio="xMidYMid slice"/>
+ </pattern>
+ <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect width="1200" height="330" rx="28" fill="url(#bg)"/>
+<path d="M25 25H1175V305H25Z" fill="none" stroke="#e9b84f" stroke-width="3" opacity=".7"/>
+<text x="600" y="58" text-anchor="middle" fill="#f7d88c" font-family="Georgia,serif" font-size="20" letter-spacing="9">THE CREW'S NAME</text>
+<text x="600" y="202" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="145" font-weight="900" letter-spacing="2" fill="url(#anime)" stroke="#ffe4a0" stroke-width="3" paint-order="stroke">SHARK</text>
+<text x="600" y="290" text-anchor="middle" font-family="Arial Black, Impact, sans-serif" font-size="78" font-weight="900" letter-spacing="15" fill="#f6cf71" stroke="#633a20" stroke-width="2" paint-order="stroke">PIRATES</text>
+<path d="M130 245 Q600 225 1070 245" fill="none" stroke="#e8b64f" stroke-width="2" opacity=".7"/>
+<g fill="#ffe7a0"><path d="M100 85l7 18 18 7-18 7-7 18-7-18-18-7 18-7z"/><path d="M1090 90l6 15 15 6-15 6-6 15-6-15-15-6 15-6z"/></g>
+</svg>
