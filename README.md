@@ -1,31 +1,39 @@
-# 🦈 Shark Coding — Sharvesh Suresh
+# 🦈 Shark Coding
 
 <p align="center">
-  <a href="https://sharveshsuresh71.github.io/sharveshsuresh71/">
-    <img src="assets/portfolio-preview.png" alt="Shark Coding Portfolio" width="100%">
-  </a>
+  <strong>Sharvesh Suresh</strong><br/>
+  Developer · Creator · Curious Problem-Solver
 </p>
 
 <p align="center">
-  **Developer · Creator · Curious Problem-Solver**
+  <a href="https://sharveshsuresh71.github.io/sharveshsuresh71/"><strong>🌸 OPEN THE LIVE INTERACTIVE PORTFOLIO →</strong></a>
 </p>
 
-Welcome to my world of web development, AI experiments and creative coding.
-
 <p align="center">
-  🌸 [**OPEN MY INTERACTIVE WEBSITE**](https://sharveshsuresh71.github.io/sharveshsuresh71/) 🌸
+  A little corner of the internet for my web projects, AI experiments, and creative coding.
 </p>
 
 ---
 
-### 🚀 Featured Projects
+## ✦ Explore
 
-- RescueSphere
-- PayShark AI
-- FRIDAY
-- Hina AI
-- NOVA
+| Destination | What you'll find |
+|:--|:--|
+| 🌸 **[Live Portfolio](https://sharveshsuresh71.github.io/sharveshsuresh71/)** | My interactive flower-field website, seasonal atmosphere, and portfolio |
+| 🧩 **[Repositories](https://github.com/sharveshsuresh71?tab=repositories)** | Projects, experiments, and source code |
+| 📫 **[GitHub Profile](https://github.com/sharveshsuresh71)** | Follow along as I build and learn |
+
+## 🚀 Featured Projects
+
+- **RescueSphere** — project
+- **PayShark AI** — project
+- **FRIDAY** — project
+- **Hina AI** — project
+- **NOVA** — project
 
 ---
 
-<p align="center">Made with creativity by **Sharvesh Suresh** 🦈</p>
+<p align="center">
+  <em>Built with curiosity and creativity.</em><br/>
+  <strong>— Sharvesh 🦈</strong>
+</p>
