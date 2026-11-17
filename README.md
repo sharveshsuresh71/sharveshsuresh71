@@ -1,43 +1,28 @@
-# 🦈 SHARK CODING — Sharvesh Suresh
+# 🦈 Shark Coding — Sharvesh Suresh
 
-### Creative Developer | AI Enthusiast | Full-Stack Developer
+\<p align="center">   \<a href="[https://sharveshsuresh71.github.io/sharveshsuresh71/](https://sharveshsuresh71.github.io/sharveshsuresh71/)">     \<img src="[https://img.shields.io/badge/🌸\_EXPLORE_MY_PORTFOLIO-Visit_Live_Website-263c35?style=for-the-badge](https://img.shields.io/badge/🌸_EXPLORE_MY_PORTFOLIO-Visit_Live_Website-263c35?style=for-the-badge)" alt="Explore my portfolio">   \</a> \</p>
 
-Welcome to my personal portfolio! I'm **Sharvesh Suresh**, a developer passionate about building creative digital experiences, AI-powered applications and modern web technologies.
+\<p align="center">   \*\*Developer · Creator · Curious Problem-Solver\*\* \</p>
 
-## 🌸 Live Portfolio
-
-**[🚀 Explore My Interactive Portfolio](https://YOUR-USERNAME.github.io/shark-coding-portfolio/)**
-
-An immersive 3D experience featuring:
-- Animated 3D shark mascot
-- Interactive seasonal flower environment
-- Smooth scrolling animations
-- Dynamic seasonal colour transitions
-- Personal introduction and project showcase
-
-## 💻 Featured Projects
-
-| Project | Description |
-|---|---|
-| RescueSphere | Emergency response platform |
-| PayShark AI | AI-powered payment project |
-| FRIDAY | Personal AI assistant |
-| Hina AI | AI assistant project |
-| NOVA | Technology project |
-
-## 🛠️ Technologies
-
-HTML • CSS • JavaScript • TypeScript • Python • React • AI
-
-## 👨‍💻 About Me
-
-I'm Sharvesh, also known as Shark Coding. I enjoy exploring new technologies, developing intelligent applications and turning creative ideas into working projects.
-
-## 📬 Connect With Me
-
-- GitHub: https://github.com/YOUR-USERNAME
-- LinkedIn: YOUR-LINKEDIN-URL
+\<p align="center">   Welcome to my world of web development, AI experiments and creative coding. \</p>
 
 ---
 
-⭐ Thanks for visiting my profile!
+### 🌐 My Interactive Portfolio
+
+[**🚀 ENTER SHARK CODING — Explore the Live Website**](https://sharveshsuresh71.github.io/sharveshsuresh71/)
+
+Explore my introduction, seasonal flower environment and selected projects.
+
+### 🚀 Featured Projects
+
+- RescueSphere
+- PayShark AI
+- FRIDAY
+- Hina AI
+- NOVA
+
+---
+
+\<p align="center">   Made with creativity by \*\*Sharvesh Suresh\*\* 🦈 \</p>
+
