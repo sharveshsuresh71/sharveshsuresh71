@@ -1,29 +1,63 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050817"/><stop offset=".48" stop-color="#21104B"/><stop offset="1" stop-color="#061D2A"/></linearGradient>
- <linearGradient id="bolt" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF"/><stop offset=".35" stop-color="#68F5FF"/><stop offset="1" stop-color="#A855F7"/></linearGradient>
- <linearGradient id="cta" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#55F4FF"/><stop offset="1" stop-color="#C58BFF"/></linearGradient>
- <radialGradient id="halo"><stop stop-color="#795BFF" stop-opacity=".75"/><stop offset="1" stop-color="#795BFF" stop-opacity="0"/></radialGradient>
- <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+ <linearGradient id="space" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050711"/><stop offset=".55" stop-color="#10152B"/><stop offset="1" stop-color="#24102E"/></linearGradient>
+ <radialGradient id="inside"><stop stop-color="#253E38"/><stop offset=".55" stop-color="#142B30"/><stop offset="1" stop-color="#080D1C"/></radialGradient>
+ <linearGradient id="fire" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFF5B0"/><stop offset=".28" stop-color="#FFB347"/><stop offset=".62" stop-color="#FF6A32"/><stop offset="1" stop-color="#B92D67"/></linearGradient>
+ <linearGradient id="type" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FFE4A6"/><stop offset="1" stop-color="#FF9B62"/></linearGradient>
+ <filter id="aura" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="18"/></filter>
+ <filter id="spark" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
+ <clipPath id="portal"><ellipse cx="350" cy="278" rx="170" ry="205"/></clipPath>
 </defs>
-<rect width="1200" height="560" rx="30" fill="url(#bg)"/>
-<ellipse cx="600" cy="220" rx="430" ry="260" fill="url(#halo)" filter="url(#glow)"/>
-<g fill="none" stroke="#72EFFF" stroke-opacity=".35" stroke-width="2">
- <path d="M0 90 Q220 10 420 100 T820 80 T1200 55"/><path d="M0 390 Q240 290 440 380 T850 365 T1200 400"/>
- <path d="M80 0 L210 170 L145 245"/><path d="M1120 0 L990 170 L1055 245"/>
+<rect width="1200" height="560" rx="28" fill="url(#space)"/>
+<g opacity=".5" fill="#C5D7FF"><circle cx="74" cy="92" r="2"/><circle cx="160" cy="430" r="1.5"/><circle cx="525" cy="70" r="2"/><circle cx="650" cy="465" r="1.5"/><circle cx="1090" cy="105" r="2"/><circle cx="1035" cy="440" r="1.5"/><circle cx="810" cy="65" r="1"/></g>
+<!-- Warm magical glow behind the gateway -->
+<ellipse cx="350" cy="278" rx="205" ry="240" fill="#FF743D" opacity=".35" filter="url(#aura)"/>
+<!-- The world visible through the portal -->
+<g clip-path="url(#portal)">
+ <rect x="170" y="70" width="360" height="420" fill="url(#inside)"/>
+ <path d="M170 365 Q240 300 300 355 T430 340 T540 360 V500 H170Z" fill="#142D2B"/>
+ <path d="M170 410 Q250 350 320 405 T450 390 T540 420 V510 H170Z" fill="#0A1B20"/>
+ <g fill="#F9C66B">
+  <circle cx="260" cy="255" r="4"/><circle cx="440" cy="220" r="3"/><circle cx="305" cy="330" r="4"/><circle cx="390" cy="290" r="3"/><circle cx="470" cy="365" r="4"/>
+ </g>
+ <g stroke="#8EC6A2" stroke-width="3" fill="none" stroke-linecap="round">
+  <path d="M260 440 Q250 380 270 350 M305 455 Q300 390 320 365 M420 450 Q410 390 435 355 M465 450 Q455 410 475 385"/>
+ </g>
+ <g fill="#F3A9C9"><circle cx="270" cy="348" r="8"/><circle cx="320" cy="362" r="7"/><circle cx="435" cy="352" r="8"/><circle cx="475" cy="382" r="7"/></g>
+ <g fill="#FFE5A0"><circle cx="270" cy="348" r="2.5"/><circle cx="320" cy="362" r="2"/><circle cx="435" cy="352" r="2.5"/><circle cx="475" cy="382" r="2"/></g>
+ <path d="M180 170 Q350 115 520 170" fill="none" stroke="#D5F3D4" stroke-opacity=".22" stroke-width="2"/>
 </g>
-<!-- Main thunder bolt, with a long directional tail aiming at the entry button -->
-<g>
- <path d="M600 24 L505 194 L568 181 L525 303 L682 125 L615 139 L665 24Z" fill="url(#bolt)" opacity=".4" filter="url(#glow)"/>
- <path d="M600 24 L505 194 L568 181 L525 303 L682 125 L615 139 L665 24Z" fill="url(#bolt)" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>
- <path d="M585 44 L535 180 L580 171 L553 250" fill="none" stroke="#FFFFFF" stroke-opacity=".9" stroke-width="5" stroke-linecap="round"/>
- <path d="M600 302 L600 340" stroke="#8DEEFF" stroke-width="7" stroke-linecap="round" filter="url(#glow)"/>
- <path d="M600 302 L600 340 M582 323 L600 342 L618 323" fill="none" stroke="#8DEEFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Portal energy: broad halo, concentric rings and fiery segmented arcs -->
+<ellipse cx="350" cy="278" rx="183" ry="218" fill="none" stroke="#FF713B" stroke-width="34" opacity=".34" filter="url(#aura)"/>
+<ellipse cx="350" cy="278" rx="178" ry="213" fill="none" stroke="url(#fire)" stroke-width="13"/>
+<ellipse cx="350" cy="278" rx="163" ry="198" fill="none" stroke="#FFD58A" stroke-opacity=".9" stroke-width="3"/>
+<g fill="none" stroke="url(#fire)" stroke-linecap="round">
+ <path d="M205 160 Q245 76 330 65" stroke-width="8"/>
+ <path d="M375 64 Q465 85 495 168" stroke-width="7"/>
+ <path d="M520 250 Q542 330 486 410" stroke-width="9"/>
+ <path d="M440 475 Q365 510 285 485" stroke-width="7"/>
+ <path d="M188 365 Q155 280 188 205" stroke-width="8"/>
 </g>
-<g fill="#D8FBFF"><circle cx="155" cy="150" r="3"/><circle cx="1030" cy="130" r="3"/><circle cx="940" cy="330" r="2"/><circle cx="255" cy="350" r="2"/><circle cx="1080" cy="260" r="2"/><circle cx="350" cy="90" r="1.5"/></g>
-<text x="600" y="388" text-anchor="middle" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="45" font-weight="800" letter-spacing="7">SHARK CODING</text>
-<text x="600" y="428" text-anchor="middle" fill="#B9D9F5" font-family="Arial,sans-serif" font-size="17" letter-spacing="5">A SMALL WORLD MADE OF BIG CURIOSITY</text>
-<rect x="350" y="465" width="500" height="62" rx="31" fill="url(#cta)" filter="url(#glow)" opacity=".75"/>
-<rect x="355" y="468" width="490" height="56" rx="28" fill="#10102F" stroke="#8DEEFF" stroke-width="2"/>
-<text x="600" y="504" text-anchor="middle" fill="#E9FCFF" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">⚡ OPEN MY WORLD ⚡</text>
+<!-- Floating sparks around the rim -->
+<g fill="#FFD98A">
+ <path d="M202 111 l7 19 19 7 -19 7 -7 19 -7 -19 -19 -7 19 -7Z"/>
+ <path d="M496 126 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5Z"/>
+ <path d="M535 300 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6Z"/>
+ <path d="M255 490 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5Z"/>
+ <circle cx="175" cy="250" r="4"/><circle cx="470" cy="75" r="3"/><circle cx="530" cy="400" r="3"/><circle cx="290" cy="48" r="3"/>
+</g>
+<g fill="#FF9B54" filter="url(#spark)" opacity=".9"><circle cx="190" cy="185" r="9"/><circle cx="500" cy="210" r="8"/><circle cx="465" cy="450" r="8"/><circle cx="225" cy="455" r="7"/></g>
+<!-- Directional sweep from portal toward the invitation -->
+<path d="M555 278 C625 235 640 235 700 235" fill="none" stroke="#FF9B54" stroke-opacity=".55" stroke-width="3" stroke-dasharray="5 12"/>
+<path d="M685 220 L706 235 L685 250" fill="none" stroke="#FFC17D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<g font-family="Arial,sans-serif">
+ <text x="755" y="174" fill="#F7DDBB" font-size="17" letter-spacing="6">A GATEWAY TO</text>
+ <text x="750" y="238" fill="#FFFFFF" font-size="54" font-weight="800" letter-spacing="3">SHARK</text>
+ <text x="750" y="298" fill="url(#type)" font-size="54" font-weight="800" letter-spacing="3">CODING</text>
+ <text x="755" y="346" fill="#C6C8D8" font-size="18" letter-spacing="2">STEP THROUGH. GET TO KNOW ME.</text>
+ <rect x="750" y="390" width="340" height="66" rx="33" fill="#FF8A4B" opacity=".22" filter="url(#aura)"/>
+ <rect x="755" y="393" width="330" height="58" rx="29" fill="#171523" stroke="#FFB66D" stroke-width="2"/>
+ <text x="920" y="430" text-anchor="middle" fill="#FFE7C6" font-size="20" font-weight="700" letter-spacing="3">ENTER MY WORLD  ↗</text>
+</g>
+<text x="600" y="530" text-anchor="middle" fill="#8C91A8" font-family="Arial,sans-serif" font-size="12" letter-spacing="4">ONE PORTAL · ONE CLICK · YOUR NEXT DISCOVERY</text>
 </svg>
