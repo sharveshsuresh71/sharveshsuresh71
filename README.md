@@ -7,7 +7,7 @@
 <br/>
 
 <a href="https://sharveshsuresh71.github.io/sharveshsuresh71/">
-  <img width="100%" src="https://raw.githubusercontent.com/sharveshsuresh71/sharveshsuresh71/main/assets/treasure-portal.svg?v=2f471252e59f819a090da37aa28dd84bd900c3d1" alt="Shark Pirates ship — click to board and see the captain's treasure" />
+  <img width="100%" src="https://media1.tenor.com/m/JYkfBdbO1JkAAAAd/one-piece-boat.gif" alt="One Piece pirate ship setting sail — click to board the Shark Pirates" />
 </a>
 
 <br/>
