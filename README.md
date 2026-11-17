@@ -2,31 +2,23 @@
 
 <p align="center">
   <a href="https://sharveshsuresh71.github.io/sharveshsuresh71/">
-    <img src="https://img.shields.io/badge/🌸_EXPLORE_MY_PORTFOLIO-Visit_Live_Website-263c35?style=for-the-badge" alt="Explore my portfolio">
+    <img src="assets/portfolio-preview.png" alt="Shark Coding Portfolio" width="100%">
   </a>
 </p>
 
 <p align="center">
-  <strong>Developer · Creator · Curious Problem-Solver</strong>
+  **Developer · Creator · Curious Problem-Solver**
 </p>
 
+Welcome to my world of web development, AI experiments and creative coding.
+
 <p align="center">
-  Welcome to my world of web development, AI experiments and creative coding.
+  🌸 [**OPEN MY INTERACTIVE WEBSITE**](https://sharveshsuresh71.github.io/sharveshsuresh71/) 🌸
 </p>
 
 ---
 
-## 🌐 My Interactive Portfolio
-
-<p align="center">
-  <a href="https://sharveshsuresh71.github.io/sharveshsuresh71/">
-    <strong>🚀 ENTER SHARK CODING — EXPLORE MY WEBSITE</strong>
-  </a>
-</p>
-
-Explore my introduction, seasonal flower environment and selected projects.
-
-## 🚀 Featured Projects
+### 🚀 Featured Projects
 
 - RescueSphere
 - PayShark AI
@@ -36,6 +28,4 @@ Explore my introduction, seasonal flower environment and selected projects.
 
 ---
 
-<p align="center">
-  Made with creativity by <strong>Sharvesh Suresh</strong> 🦈
-</p>
+<p align="center">Made with creativity by **Sharvesh Suresh** 🦈</p>
