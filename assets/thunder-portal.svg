@@ -11,7 +11,7 @@
 <rect width="1200" height="560" rx="28" fill="url(#space)"/>
 <g opacity=".5" fill="#C5D7FF"><circle cx="74" cy="92" r="2"/><circle cx="160" cy="430" r="1.5"/><circle cx="525" cy="70" r="2"/><circle cx="650" cy="465" r="1.5"/><circle cx="1090" cy="105" r="2"/><circle cx="1035" cy="440" r="1.5"/><circle cx="810" cy="65" r="1"/></g>
 <!-- Warm magical glow behind the gateway -->
-<ellipse cx="350" cy="278" rx="205" ry="240" fill="#FF743D" opacity=".35" filter="url(#aura)"/>
+<ellipse cx="350" cy="278" rx="205" ry="240" fill="#FF743D" opacity=".25" filter="url(#aura)"><animate attributeName="opacity" values=".18;.48;.18" dur="2.8s" repeatCount="indefinite"/><animate attributeName="rx" values="195;215;195" dur="2.8s" repeatCount="indefinite"/></ellipse>
 <!-- The world visible through the portal -->
 <g clip-path="url(#portal)">
  <rect x="170" y="70" width="360" height="420" fill="url(#inside)"/>
@@ -29,9 +29,9 @@
 </g>
 <!-- Portal energy: broad halo, concentric rings and fiery segmented arcs -->
 <ellipse cx="350" cy="278" rx="183" ry="218" fill="none" stroke="#FF713B" stroke-width="34" opacity=".34" filter="url(#aura)"/>
-<ellipse cx="350" cy="278" rx="178" ry="213" fill="none" stroke="url(#fire)" stroke-width="13"/>
+<ellipse cx="350" cy="278" rx="178" ry="213" fill="none" stroke="url(#fire)" stroke-width="13" stroke-dasharray="38 12"><animate attributeName="stroke-dashoffset" from="0" to="-100" dur="5s" repeatCount="indefinite"/></ellipse>
 <ellipse cx="350" cy="278" rx="163" ry="198" fill="none" stroke="#FFD58A" stroke-opacity=".9" stroke-width="3"/>
-<g fill="none" stroke="url(#fire)" stroke-linecap="round">
+<g fill="none" stroke="url(#fire)" stroke-linecap="round"><animateTransform attributeName="transform" type="rotate" from="0 350 278" to="360 350 278" dur="24s" repeatCount="indefinite"/>
  <path d="M205 160 Q245 76 330 65" stroke-width="8"/>
  <path d="M375 64 Q465 85 495 168" stroke-width="7"/>
  <path d="M520 250 Q542 330 486 410" stroke-width="9"/>
@@ -39,7 +39,7 @@
  <path d="M188 365 Q155 280 188 205" stroke-width="8"/>
 </g>
 <!-- Floating sparks around the rim -->
-<g fill="#FFD98A">
+<g fill="#FFD98A"><animateTransform attributeName="transform" type="rotate" from="0 350 278" to="-360 350 278" dur="18s" repeatCount="indefinite"/>
  <path d="M202 111 l7 19 19 7 -19 7 -7 19 -7 -19 -19 -7 19 -7Z"/>
  <path d="M496 126 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5Z"/>
  <path d="M535 300 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6Z"/>
@@ -49,15 +49,15 @@
 <g fill="#FF9B54" filter="url(#spark)" opacity=".9"><circle cx="190" cy="185" r="9"/><circle cx="500" cy="210" r="8"/><circle cx="465" cy="450" r="8"/><circle cx="225" cy="455" r="7"/></g>
 <!-- Directional sweep from portal toward the invitation -->
 <path d="M555 278 C625 235 640 235 700 235" fill="none" stroke="#FF9B54" stroke-opacity=".55" stroke-width="3" stroke-dasharray="5 12"/>
-<path d="M685 220 L706 235 L685 250" fill="none" stroke="#FFC17D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M685 220 L706 235 L685 250" fill="none" stroke="#FFC17D" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><animateTransform attributeName="transform" type="translate" values="0 0;12 0;0 0" dur="1.3s" repeatCount="indefinite"/></path>
 <g font-family="Arial,sans-serif">
  <text x="755" y="174" fill="#F7DDBB" font-size="17" letter-spacing="6">A GATEWAY TO</text>
  <text x="750" y="238" fill="#FFFFFF" font-size="54" font-weight="800" letter-spacing="3">SHARK</text>
  <text x="750" y="298" fill="url(#type)" font-size="54" font-weight="800" letter-spacing="3">CODING</text>
  <text x="755" y="346" fill="#C6C8D8" font-size="18" letter-spacing="2">STEP THROUGH. GET TO KNOW ME.</text>
- <rect x="750" y="390" width="340" height="66" rx="33" fill="#FF8A4B" opacity=".22" filter="url(#aura)"/>
- <rect x="755" y="393" width="330" height="58" rx="29" fill="#171523" stroke="#FFB66D" stroke-width="2"/>
- <text x="920" y="430" text-anchor="middle" fill="#FFE7C6" font-size="20" font-weight="700" letter-spacing="3">ENTER MY WORLD  ↗</text>
+ <rect x="750" y="390" width="340" height="66" rx="33" fill="#FF8A4B" opacity=".22" filter="url(#aura)"><animate attributeName="opacity" values=".16;.55;.16" dur="1.7s" repeatCount="indefinite"/><animate attributeName="x" values="750;744;750" dur="1.7s" repeatCount="indefinite"/></rect>
+ <rect x="755" y="393" width="330" height="58" rx="29" fill="#171523" stroke="#FFB66D" stroke-width="2"><animate attributeName="stroke-width" values="2;4;2" dur="1.7s" repeatCount="indefinite"/></rect>
+ <text x="920" y="430" text-anchor="middle" fill="#FFE7C6" font-size="20" font-weight="700" letter-spacing="3">ENTER MY WORLD  ↗<animate attributeName="opacity" values="1;.68;1" dur="1.7s" repeatCount="indefinite"/></text>
 </g>
 <text x="600" y="530" text-anchor="middle" fill="#8C91A8" font-family="Arial,sans-serif" font-size="12" letter-spacing="4">ONE PORTAL · ONE CLICK · YOUR NEXT DISCOVERY</text>
 </svg>
