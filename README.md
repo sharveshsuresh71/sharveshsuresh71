@@ -1,26 +1,20 @@
 <div align="center">
 
 <a href="https://sharveshsuresh71.github.io/sharveshsuresh71/">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:070B1C,22:25105C,48:6B176E,72:123D70,100:071A24&text=SHARK%20CODING&fontColor=FFFFFF&fontSize=66&fontAlignY=39&desc=SHARVESH%20SURESH%20%20%E2%9C%A6%20%20CODE%20%7C%20CREATE%20%7C%20IMAGINE&descAlignY=59&descSize=15&animation=twinkling" alt="Shark Coding — neon fantasy banner" />
+  <img width="100%" src="https://raw.githubusercontent.com/sharveshsuresh71/sharveshsuresh71/main/assets/thunder-portal.svg" alt="A glowing thunder portal — enter Shark Coding" />
 </a>
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=19&duration=2200&pause=650&color=72F7FF&center=true&vCenter=true&width=700&lines=WELCOME+TO+MY+DIGITAL+UNIVERSE;WHERE+CODE+MEETS+IMAGINATION;BUILDING+AI+%E2%80%A2+CRAFTING+EXPERIENCES;STAY+CURIOUS.+KEEP+CREATING." alt="Animated welcome" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=18&duration=2600&pause=900&color=8DEEFF&center=true&vCenter=true&width=700&lines=HEY%2C+WELCOME+IN.;A+SMALL+CORNER+OF+MY+DIGITAL+WORLD.;CURIOUS+MINDS+ARE+ALWAYS+WELCOME." alt="Welcome message" />
 
 <br/>
 
 <a href="https://sharveshsuresh71.github.io/sharveshsuresh71/">
-  <img src="https://img.shields.io/badge/%E2%9C%A6%20ENTER%20THE%20LIVE%20WORLD-00D9FF?style=for-the-badge&logoColor=07111F&labelColor=30105C" alt="Enter live portfolio" />
-</a>
-&nbsp;
-<a href="https://github.com/sharveshsuresh71?tab=repositories">
-  <img src="https://img.shields.io/badge/EXPLORE%20THE%20CODE-FF4FD8?style=for-the-badge&logo=github&logoColor=white&labelColor=30105C" alt="Explore code" />
+  <img src="https://img.shields.io/badge/%E2%9A%A1%20STEP%20THROUGH%20THE%20THUNDER-8DEEFF?style=for-the-badge&labelColor=171044&logoColor=07111F" alt="Open the live website" />
 </a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=sharveshsuresh71&style=for-the-badge&color=7C3AED&label=PROFILE+VISITORS" alt="Profile visitors" />
-&nbsp;
-<img src="https://img.shields.io/github/followers/sharveshsuresh71?style=for-the-badge&color=00CFE8&labelColor=11152B&label=FOLLOWERS" alt="GitHub followers" />
+<sub>🦈 SHARK CODING · SHARVESH SURESH</sub>
 
 </div>
 
@@ -28,70 +22,24 @@
 
 <div align="center">
 
-### ⚡ THE CREATIVE CORE
-
-<img src="https://img.shields.io/badge/01%20%E2%80%A2%20WEB%20EXPERIENCES-00D9FF?style=for-the-badge&labelColor=10152D" alt="Web experiences" />
-<img src="https://img.shields.io/badge/02%20%E2%80%A2%20AI%20EXPERIMENTS-FF4FD8?style=for-the-badge&labelColor=10152D" alt="AI experiments" />
-<img src="https://img.shields.io/badge/03%20%E2%80%A2%20CREATIVE%20CODE-A6FF4D?style=for-the-badge&labelColor=10152D" alt="Creative code" />
-
-<br/><br/>
-
-### 🚀 BUILT IN MY UNIVERSE
+### A LITTLE ABOUT ME
 
 </div>
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <h3>🛟 RescueSphere</h3>
-      <sub>Ideas built to make a difference.</sub>
-    </td>
-    <td align="center" width="50%">
-      <h3>🦈 PayShark AI</h3>
-      <sub>Where payments meet intelligence.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <h3>◈ FRIDAY</h3>
-      <sub>A personal AI assistant experiment.</sub>
-    </td>
-    <td align="center">
-      <h3>✧ Hina AI</h3>
-      <sub>Exploring character-driven AI.</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <h3>☄ NOVA</h3>
-      <sub>A creative AI writing experiment.</sub>
-    </td>
-  </tr>
-</table>
+Hey! I'm Sharvesh. I enjoy exploring code, experimenting with ideas, and creating digital experiences that feel a little different.
+
+This is my small corner of the internet — still growing, always learning, and built one idea at a time.
+
+**If you're curious, come take a look. No pressure, just explore.**
 
 <div align="center">
 
-### 📡 GITHUB TRANSMISSION
-
-<a href="https://github.com/sharveshsuresh71">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=sharveshsuresh71&show_icons=true&hide_border=true&bg_color=090D20&title_color=FF4FD8&icon_color=00D9FF&text_color=EAF3FF&ring_color=8B5CF6" alt="GitHub stats" />
-</a>
-<a href="https://github.com/sharveshsuresh71">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sharveshsuresh71&layout=compact&hide_border=true&bg_color=090D20&title_color=00D9FF&text_color=EAF3FF" alt="Most used languages" />
-</a>
-
-<br/>
-
-<a href="https://github.com/sharveshsuresh71?tab=repositories">
-  <img src="https://img.shields.io/badge/OPEN%20ALL%20PROJECTS-8B5CF6?style=for-the-badge&logo=github&logoColor=white" alt="Open all projects" />
+<a href="https://sharveshsuresh71.github.io/sharveshsuresh71/">
+  <img src="https://img.shields.io/badge/COME%20SAY%20HELLO-FF4FD8?style=for-the-badge&labelColor=171044&logoColor=white" alt="Visit my live website" />
 </a>
 
 <br/><br/>
 
-<a href="https://sharveshsuresh71.github.io/sharveshsuresh71/">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=170&color=0:071A24,28:123D70,58:6B176E,82:25105C,100:070B1C&text=MAKE%20SOMETHING%20UNFORGETTABLE&fontColor=FFFFFF&fontSize=23&fontAlignY=63&animation=twinkling" alt="Make something unforgettable" />
-</a>
-
-<sub>🦈 SHARK CODING · BUILT WITH CURIOSITY, POWERED BY IMAGINATION</sub>
+<sub>⚡ CODE · CREATE · IMAGINE</sub>
 
 </div>
