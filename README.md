@@ -5,7 +5,7 @@
 <br/><br/>
 
 <a href="https://sharveshsuresh71.github.io/sharveshsuresh71/">
-  <img width="100%" src="https://raw.githubusercontent.com/sharveshsuresh71/sharveshsuresh71/main/assets/shark-pirates-name.svg?v=b2a10b73ed47e8c179e3a837c7e9fa9d9c26f58a" alt="SHARK PIRATES — anime character GIF mosaic lettering" />
+  <img width="100%" src="https://raw.githubusercontent.com/sharveshsuresh71/sharveshsuresh71/main/assets/shark-pirates-name.svg?v=f9ba358e5c3a467f15c6d51a2cc6a4524e7901ec" alt="SHARK PIRATES — gold pirate crew lettering" />
 </a>
 
 <br/><br/>
